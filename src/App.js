@@ -1,18 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-import { Fragment } from 'react';
-import {First} from './first.jsx';
-import {Second} from './second.jsx';
-import { Third } from './third';
-import { Fourth } from './fourth';
-
+import logo from "./logo.svg";
+import "./App.css";
+import { First } from "./first";
+import { Second } from "./second";
+import { Third } from "./third";
+import { Fourth } from "./fourth";
 
 function App() {
   return (
-    <Fragment>
-     
-      
-    </Fragment>
+    <div class="second">
+      <First />
+      <Second />
+      <br />
+      <Third />
+      <br />
+      <Fourth />
+    </div>
   );
 }
 
